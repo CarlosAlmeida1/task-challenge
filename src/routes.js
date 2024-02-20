@@ -33,5 +33,20 @@ export const routes = [
       return res.writeHead(201).end()
       
     }
+  },
+  {
+    method: 'GET',
+    url: buildRoutePath('/tasks'),
+    handler: (req, res) => {
+      const { search } = req.query
+
+      const tasks = database.select('tasks', search ? {
+        title: search,
+        description: search
+      } : null)
+
+      return res.end(JSON.stringify(tasks))
+    }
+
   }
 ]
