@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises' 
 
-const dataBasePath = new URL('../database.json', import.meta.url)
+const dataBasePath = new URL('../database.json', import.meta.url, )
 
 export class Database {
   #database = {}
@@ -14,9 +14,9 @@ export class Database {
         this.#persist()
       })
   }
-  
+   
   #persist() {
-    fs.writeFile(dataBasePath, JSON.stringify(this.#database))
+    fs.writeFile(dataBasePath, JSON.stringify(this.#database, null, 2))
   }
    
   insert(table, data) {
@@ -30,6 +30,7 @@ export class Database {
 
     return data
   }
+
 
 
 }

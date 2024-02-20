@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "node-fetch": "^3.3.2"
+  }
 }

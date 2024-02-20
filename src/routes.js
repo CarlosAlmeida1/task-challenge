@@ -24,8 +24,8 @@ export const routes = [
         title,
         description,
         completed_at: null,
-        created_at: new Date().toISOString(),
-        updated_at: new Date().toISOString()
+        created_at: new Date().toLocaleDateString('pt-BR'),
+        updated_at: new Date().toLocaleDateString('pt-BR')
       }
 
       database.insert('tasks', task)
