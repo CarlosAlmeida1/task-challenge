@@ -1,20 +1,6 @@
 {
   "tasks": [
     {
-      "id": "8026a450-165f-4ad8-a17d-ed25094b109e",
-      "title": "TES",
-      "description": " AFEEEEEEEE",
-      "updated_at": "20/02/2024"
-    },
-    {
-      "id": "8adc0f08-762b-497c-861d-a172de1d482c",
-      "title": "Cinco Estrofes de Poesia",
-      "description": "Embelezar o dia com a leitura de 5 estrofes de poesia.",
-      "completed_at": null,
-      "created_at": "20/02/2024",
-      "updated_at": "20/02/2024"
-    },
-    {
       "id": "3764690e-2912-4f87-ad80-2bc2bd15380e",
       "title": "Explorar Cinco Ingredientes Novos",
       "description": "Aprender sobre culinária lendo 5 páginas de receitas.",
@@ -66,14 +52,6 @@
       "id": "802cefef-ab08-442d-a7f0-58cfd3b105c4",
       "title": "Cinco Páginas de Autoajuda",
       "description": "Buscar inspiração e motivação lendo 5 páginas de um livro de autoajuda.",
-      "completed_at": null,
-      "created_at": "20/02/2024",
-      "updated_at": "20/02/2024"
-    },
-    {
-      "id": "c1b3f93c-0090-49f4-b61d-266ac0d523c9",
-      "title": "Cinco Páginas de Ciência",
-      "description": "Explorar os mistérios do universo lendo 5 páginas de um livro de ciência.",
       "completed_at": null,
       "created_at": "20/02/2024",
       "updated_at": "20/02/2024"
