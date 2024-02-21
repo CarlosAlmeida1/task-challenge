@@ -1,7 +1,23 @@
 {
   "tasks": [
     {
-      "id": "3764690e-2912-4f87-ad80-2bc2bd15380e",
+      "id": "ff935047-eaac-4762-abec-6921c5c2a07f",
+      "title": "Realizar leitura do livro",
+      "description": "ler 5 paginas",
+      "completed_at": null,
+      "created_at": "20/02/2024",
+      "updated_at": "20/02/2024"
+    },
+    {
+      "id": "4ae59038-70ef-489f-bbca-7e27eb7c3a1d",
+      "title": "Cinco Estrofes de Poesia",
+      "description": "Embelezar o dia com a leitura de 5 estrofes de poesia.",
+      "completed_at": null,
+      "created_at": "20/02/2024",
+      "updated_at": "20/02/2024"
+    },
+    {
+      "id": "3a9f6ec7-457c-47d2-9f18-32adeccdc4ce",
       "title": "Explorar Cinco Ingredientes Novos",
       "description": "Aprender sobre culinária lendo 5 páginas de receitas.",
       "completed_at": null,
@@ -9,7 +25,7 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "27c98e5e-e5d1-4c24-93bd-4a96721cb411",
+      "id": "a0dec361-c4cc-4555-aa33-25b5dbffe4d5",
       "title": "Cinco Páginas de História Mundial",
       "description": "Conhecer eventos históricos lendo 5 páginas de um livro de história.",
       "completed_at": null,
@@ -17,7 +33,7 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "ace0b797-a640-4d3d-be99-e5ff36d85947",
+      "id": "82960b7f-d0d2-471d-ba5f-579ef680de97",
       "title": "Descobrir Cinco Fatos Curiosos",
       "description": "Expandir o conhecimento lendo 5 páginas de um livro de curiosidades.",
       "completed_at": null,
@@ -25,7 +41,7 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "fad61c29-b2a2-4814-8886-c5716e85086a",
+      "id": "abe7a349-040c-4b73-acc4-06dafdc9806f",
       "title": "Investigar Cinco Mistérios Arqueológicos",
       "description": "Entrar no mundo da arqueologia lendo 5 páginas de um livro sobre o assunto.",
       "completed_at": null,
@@ -33,7 +49,7 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "d3bbea15-c9b1-4f6a-b734-4a374d8aa1e7",
+      "id": "02113c83-35fd-4132-9ba6-229d3602d162",
       "title": "Navegar por Cinco Itens de Moda",
       "description": "Explorar o mundo da moda lendo 5 páginas de uma revista ou livro sobre o tema.",
       "completed_at": null,
@@ -41,7 +57,7 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "05b6e237-1eea-45bf-883e-411b7bf83fa2",
+      "id": "215c5da4-d2a0-450f-82a2-5b8b970df292",
       "title": "Cinco Páginas de Psicologia",
       "description": "Entender a mente humana lendo 5 páginas de um livro de psicologia.",
       "completed_at": null,
@@ -49,7 +65,7 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "802cefef-ab08-442d-a7f0-58cfd3b105c4",
+      "id": "943da175-0654-42f6-a8c3-6e48157eda81",
       "title": "Cinco Páginas de Autoajuda",
       "description": "Buscar inspiração e motivação lendo 5 páginas de um livro de autoajuda.",
       "completed_at": null,
@@ -57,7 +73,15 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "a04ac193-134c-489b-b18c-d5dd63096e03",
+      "id": "3005cd82-dc41-4b2d-9655-ebea5edf810b",
+      "title": "Cinco Páginas de Ciência",
+      "description": "Explorar os mistérios do universo lendo 5 páginas de um livro de ciência.",
+      "completed_at": null,
+      "created_at": "20/02/2024",
+      "updated_at": "20/02/2024"
+    },
+    {
+      "id": "70912f7a-3a35-407d-8882-23e1a99344e5",
       "title": "Desvendar Cinco Enigmas de Sherlock Holmes",
       "description": "Entrar no mundo da investigação lendo 5 páginas de um livro de mistério.",
       "completed_at": null,
@@ -65,7 +89,7 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "43a43610-334e-40d3-bcbd-322d5856f550",
+      "id": "c15bd37d-cd2e-4308-96cc-c57fef03dd32",
       "title": "Cinco Páginas de Política",
       "description": "Entender os desafios políticos lendo 5 páginas de um livro sobre política.",
       "completed_at": null,
@@ -73,9 +97,16 @@
       "updated_at": "20/02/2024"
     },
     {
-      "id": "c0cf2891-9bbb-41c0-a527-afffb1d2304f",
+      "id": "1fbe72e6-1e6a-4bfa-8dcd-a773867630ab",
       "title": "Cinco Páginas de Ficção Científica",
       "description": "Explorar novos mundos lendo 5 páginas de um livro de ficção científica.",
+      "completed_at": null,
+      "created_at": "20/02/2024",
+      "updated_at": "20/02/2024"
+    },
+    {
+      "id": "62a73d06-1361-48fa-8721-ea52a43fbdaa",
+      "description": "Descrição da Tarefa",
       "completed_at": null,
       "created_at": "20/02/2024",
       "updated_at": "20/02/2024"

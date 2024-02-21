@@ -1,6 +1,7 @@
 import { randomUUID} from "node:crypto"
 import { Database } from "./database.js"
 import { buildRoutePath } from "./utils/build-route-path.js"
+import { start } from "node:repl"
 
 const database = new Database()
 
@@ -12,11 +13,13 @@ export const routes = [
       const { title, description } = req.body
 
       if(!title){
-        JSON.stringify({ error: 'Title is required' })
+        return res.writeHead(400)
+        .end(JSON.stringify({ error: 'Title is required' }))
       }
 
       if(!description){
-        JSON.stringify({ error: 'Description is required' })
+        return res.writeHead(400)
+        .end(JSON.stringify({ error: 'Description is required' }))
       }
 
       const task = {
@@ -92,6 +95,27 @@ export const routes = [
       database.delete('tasks', id)
 
       res.writeHead(204).end()
+    }
+  },
+  {
+    method: "PATCH",
+    url: buildRoutePath("/tasks/:id/complete"),
+    handler: (req, res) => {
+      const {id} = req.params
+
+      const [task] = database.select("tasks", { id })
+
+      if(!task){
+        return res.writeHead(404).end()
+      }
+
+      const isCompletedTask = task.completed_at !== null
+      const completed_at = isCompletedTask ? null : new Date().toLocaleDateString('pt-BR')
+
+      database.update("tasks", id, {completed_at})
+
+      res.writeHead(204).end()
+      
     }
   }
 ]
